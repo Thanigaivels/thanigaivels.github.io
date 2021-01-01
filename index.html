@@ -4,64 +4,197 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/style.css" />
     <title>Thanigai's Resume</title>
   </head>
-  <body>
-    <div>
+  <body style="overflow-x: hidden;">
+    <div style="width: 100%;">
         <div class="row">
-          <div class="col border border-primary">
-            <div class="profile">
-                <img src="assets/img/profile.jpg" class="border rounded-circle img-fluid max-width: 100%"/>
-            </div>
-            <ul class="nav flex-column">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">Skills</a>
+          <div class="col-3 border border-primary bg-primary text-white sidebar py-5 fixed-top">
+              <div class="items">
+                <div class="profile text-center">
+                  <img src="assets/img/profile.jpg" class="border rounded-circle text-center img-fluid max-width: 50%"/>
+              </div>
+              <ul class="nav flex-column white">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects & Publications</a>
+                    <a class="nav-link" href="#experience">Skills & Experience</a>
                   </li>
-              </ul>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                  </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#certify">Certifications</a>
+                    </li>
+                </ul>
+              </div>
           </div>
-          <div class="col-9 border border-primary">
-            <div id="about" class="border border-danger">
+          <div class="border border-primary align-center container-fluid rightbar">
+            <section id="about" class="section">
+                <h1>
                 <span class="text-primary font-weight-bold">Thanigaivel</span>
                 Sivashanmugam
-                <div class="contact">
-                    <span>54 K K Nagar Extn Orikkai Kanchipuram - 02.</span>
-                    <div><a href="mailto:sss.thanigaivel@gmail.com">sss.thanigaivel@gmail.com</a></div>
-                    <div>+91-(860)8332607 +91-(866)7476802</div>
+                </h1>
+                <div class="contact h5">
+                    <!-- <span class="subheading">54 K K Nagar Extn Orikkai Kanchipuram - 02.</span> <br/><br> -->
+                    <div><img src="https://img.icons8.com/ios-filled/40/0275d8/apple-mail.png"/><a href="mailto:sss.thanigaivel@gmail.com">sss.thanigaivel@gmail.com</a></div>
+                    <div><img src="https://img.icons8.com/ios-filled/40/0275d8/phone.png"/>+91-(860)8332607 +91-(866)7476802</div><br/>
                 </div>
                 <div class="content">
-                    <span>To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization.
-                    </span>
+                    <span class="h5">To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization.
+                    </span><br><br>
                 </div>
-                <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-                    <a class="btn btn-primary" href="https://linkedin.com/in/thanigaivels" role="button"><img src="https://img.icons8.com/material/24/ffffff/linkedin--v1.png"/></a>
-                    <a class="btn btn-primary" href="https://github.com/thanigaivels" role="button"><img src="https://img.icons8.com/material/24/ffffff/github.png"/></a>
-                    <a class="btn btn-primary" href="https://twitter.com/iamthanigai" role="button"><img src="https://img.icons8.com/material/24/ffffff/twitter.png"/></a>
+                <div class="">
+                    <a class="btn btn-primary" href="https://linkedin.com/in/thanigaivels" role="button"><img src="https://img.icons8.com/material/30/ffffff/linkedin--v1.png"/></a>
+                    <a class="btn btn-primary" href="https://github.com/thanigaivels" role="button"><img src="https://img.icons8.com/material/30/ffffff/github.png"/></a>
+                    <a class="btn btn-primary" href="https://twitter.com/iamthanigai" role="button"><img src="https://img.icons8.com/material/30/ffffff/twitter.png"/></a>
                   </div>
-            </div>
-            <div id="experience">
-                <div></div>
-            </div>
-            <div id="education">
-                
-            </div>
-            <div id="skills"></div>
-            <div id="projects"></div>
+            </section>
+            <section id="experience" class="section">
+                <div>
+                  <div class="card">
+                    <h5 class="card-header h3 bg-primary text-white">Machine Learning Intern</h5>
+                    <div class="card-body">
+                      <div class="h4 card-title text-secondary">Presh Corporation
+                        <h5 class="float-right text-success" >April 2020 - May 2020</h5>
+                      </div>
+                      <p class="card-text">
+                        <ul class="h5">
+                        <li> Worked on Improving Code Quality of several Object Detection Models.</li>
+                        <li>Implemented Object detection Models like YOLOV3,RetinaNet from scratch.</li>
+                        <li>Worked on Custom Object Detection Project.</li>
+                      </ul>
+                      </p>
+                    </div>
+                  </div><br>
+                  <div class="card">
+                    <h5 class="card-header h3 bg-primary text-white">Skills</h5>
+                    <div class="card-body">
+                      <p class="card-text">
+                        <img src="https://img.icons8.com/ios/75/000000/python.png"/>
+                        <img src="https://img.icons8.com/ios/75/000000/java-coffee-cup-logo.png"/>
+                        <img src="https://img.icons8.com/ios/75/000000/c-plus-plus-logo.png"/>
+                        <img src="https://img.icons8.com/color/75/000000/c-programming.png"/>
+                        <img src="https://img.icons8.com/ios/75/000000/linux.png"/>
+                        <img src="https://img.icons8.com/material-sharp/75/000000/windows-client.png"/>
+                        <img src="https://img.icons8.com/ios/75/000000/mysql-logo.png"/>
+                        <img src="https://img.icons8.com/color/75/000000/mongodb.png"/>
+                        <img src="https://img.icons8.com/ios/75/000000/html-5.png"/>
+                        <img src="https://img.icons8.com/ios/75/000000/css3.png"/>
+                        <img src="https://img.icons8.com/ios/75/000000/javascript.png"/>
+                        <img src="https://img.icons8.com/ios/75/000000/php-logo.png"/>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </section>
+            <section id="education" class="section">
+              <div class="card">
+                <h5 class="card-header h3 bg-primary text-white">Bachelor of Engineering</h5>
+                <div class="card-body">
+                  <div class="h4 card-title text-secondary">Jeppiaar Maamallan Engineering College
+                    <h5 class="float-right text-success" >August 2017 - May 2021</h5>
+                  </div>
+                  <p class="card-text">
+                    <ul class="h5">
+                      <li> Computer Science and Engineering</li>
+                      <li>CPGA 7.63/10</li>
+                    </ul>
+                  </p>
+                </div>
+              </div> <br/>
+              <div class="card">
+                <h5 class="card-header h3 bg-primary text-white">High School</h5>
+                <div class="card-body">
+                  <div class="h4 card-title text-secondary">Bharathi Dasan Matric Hr Sec School 
+                    <h5 class="float-right text-success" >July 2016 - May 2017</h5>
+                  </div>
+                  <p class="card-text">
+                    <ul class="h5">
+                      <li> Computer Science Group</li>
+                      <li> Percentage 84.33%</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section id="projects" class="section">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="card text-white" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(assets/img/cyberbully.jpg);">
+                    <div class="card-body">
+                      <h5 class="card-title">Detection and Prevention of Cyberbullying</h5>
+                      <p class="card-text">Implemented using the Ensemble Classifier Model in Python.</p>
+                      <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card text-white" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(assets/img/objdetect.jpg);">
+                    <div class="card-body">
+                      <h5 class="card-title">License Plate Detection</h5>
+                      <p class="card-text">A Object Detection Model to detect License Plates from Photos and Videos. Implemented using YOLOv3.</p>
+                      <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="card text-white" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(assets/img/tomato.jpg);">
+                    <div class="card-body">
+                      <h5 class="card-title">Tomato</h5>
+                      <p class="card-text">A Online Food Delivery Platform Model. Implemented using PHP as Backend and HTML, CSS as Frontend.</p>
+                      <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card text-white" style="background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)),url(assets/img/goapi.jpg);">
+                    <div class="card-body">
+                      <h5 class="card-title">Inshorts Blog API</h5>
+                      <p class="card-text">A API that can perform CRUD Operations. Implemented using GoLang and MongoDB.</p><br>
+                      <a href="#" class="btn btn-primary">View</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section id="certify" class="section">
+              <div class="card">
+                <h5 class="card-header h3 bg-primary text-white">Certifications</h5>
+                <div class="card-body">
+                  <table>
+                    <tbody>
+                      <tr>
+                        <td><img class="certifications" src="https://nptel.ac.in/assets/nptel_assets/images/nptel-logo.png" alt="Broken URL"/></th>
+                        <td>Problem Solving through Python</th>
+                      </tr>
+                      <tr>
+                        <td><img class="certifications" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/NIIT_logo.svg/1200px-NIIT_logo.svg.png" alt="Broken URL"/></td>
+                        <td>Programming in C</td>
+                      </tr>
+                      <tr>
+                        <td><img class="certifications" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/NIIT_logo.svg/1200px-NIIT_logo.svg.png" alt="Broken URL"/></td>
+                        <td>Object Oriented Programming in C++</td>
+                      </tr>
+                      <tr>
+                        <td><img class="certifications" src="https://cdn.worldvectorlogo.com/logos/udemy-2.svg" alt="Broken URL"/></td>
+                        <td>Complete Front-end Web Development Course</td>
+                      </tr>
+                    </tbody>
+                    </table>                    
+                </div>
+              </div>
+            </section>
           </div>
         </div>
     <!-- Optional JavaScript -->
