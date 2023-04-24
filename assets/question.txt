@@ -1,0 +1,18 @@
+Where is your organization headquartered?(Ans: Country List)
+In which countries does your organization operate?(Ans: Country CheckList)
+How many office locations does your organization have?(Ans:Number)
+Is your organization a subsidiary(Ans: Yes/No)
+Do you have any subsidiaries?(Ans: Yes/No)
+If Yes : 
+If you have subsidiaries, in which countries do they operate?
+How many subsidiaries does your organization have?
+What types of subsidiaries does your organization have? (Ans :Regional offices/Franchise locations/Partner companies/Acquired companies/Other)
+Are your subsidiaries independent legal entities?(Ans : Yes/No)
+How do you manage your subsidiaries' operations? (Ans :Please select all that apply :
+Centrally from the parent organization
+Decentralized management by subsidiaries
+Independent operations with minimal oversight from the parent organization
+Do your subsidiaries have separate accounting practices?(Ans : Yes/No)
+How do you manage the financial reporting of your subsidiaries?(Ans :Consolidated financial statements for the parent organization and all subsidiaries / Separate financial statements for the parent organization and each subsidiary)
+How many employees do you have?(Ans : Number range)
+What are the departments available in your organization?
